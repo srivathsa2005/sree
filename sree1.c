@@ -51,4 +51,16 @@
       font-weight: 300;
       margin-bottom: 8px;
     }
+    .welcome-section p {
+      font-size: 16px;
+      opacity: 0.9;
+    }
     
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    
+    .stats-grid {
+ 
