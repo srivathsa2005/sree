@@ -111,5 +111,37 @@ int main() {
     for (int r = 1; r <= 5; r++) {
         for (int c = 1; c <= r; c++) {
             printf("*");
+}
+        printf("\n");
+    }
+
+    // Command Line Style Simulation
+    printf("\nSimulated Command Line Arguments:\n");
+    char *args[] = {"program", "arg1", "arg2"};
+    for (int idx = 0; idx < 3; idx++) {
+        printf("Arg[%d]: %s\n", idx, args[idx]);
+    }
+
+    // Typecasting Example
+    int num = 5;
+    double res = (double)num / 2;
+    printf("\nTypecasting Result: %.2lf", res);
+
+    // Bitwise Operators
+    int p = 5, q = 9;
+    printf("\nBitwise AND (5&9): %d", p & q);
+    printf("\nBitwise OR (5|9): %d", p | q);
+    printf("\nBitwise XOR (5^9): %d", p ^ q);
+    printf("\nLeft Shift (5<<1): %d", p << 1);
+    printf("\nRight Shift (9>>1): %d", q >> 1);
+
+    // Break and Continue
+    printf("\nBreak and Continue Example:\n");
+    for (int n = 1; n <= 5; n++) {
+        if (n == 3) {
+            continue;
+        }
+        if (n == 5) {
+            break;
  
 
