@@ -145,4 +145,115 @@
       color: #1f2937;
       margin-bottom: 8px;
     }
-  
+      display: block;
+    }
+
+    .stat-label {
+      font-size: 16px;
+      color: #6b7280;
+      font-weight: 500;
+    }
+    .appointments-section {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+    }
+
+    .section-header {
+      background: #f8fafc;
+      padding: 25px 30px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+.section-header h3 {
+      font-size: 24px;
+      font-weight: 600;
+      color: #1f2937;
+      margin-bottom: 5px;
+    }
+
+    .section-header p {
+      color: #6b7280;
+      font-size: 14px;
+    }
+
+    .appointments-content {
+      padding: 30px;
+    }
+
+    .appointment-item {
+      background: #f8fafc;
+ border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 15px;
+      transition: border-color 0.3s;
+    }
+
+    .appointment-item:hover {
+      border-color: #3b82f6;
+    }
+ .appointment-item:last-child {
+      margin-bottom: 0
+      display: block;
+    }
+
+    .stat-label {
+      font-size: 16px;
+      color: #6b7280;
+      font-weight: 500;
+    }
+    .appointments-section {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+    }
+
+    .section-header {
+      background: #f8fafc;
+      padding: 25px 30px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+.section-header h3 {
+      font-size: 24px;
+      font-weight: 600;
+      color: #1f2937;
+      margin-bottom: 5px;
+    }
+
+    .section-header p {
+      color: #6b7280;
+      font-size: 14px;
+    }
+
+    .appointments-content {
+      padding: 30px;
+    }
+
+    .appointment-item {
+      background: #f8fafc;
+ border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 15px;
+      transition: border-color 0.3s;
+    }
+
+    .appointment-item:hover {
+      border-color: #3b82f6;
+    }
+ .appointment-item:last-child {
+      margin-bottom: 0;
+    }
+
+    .appointment-patient {
+      font-size: 18px;
+      font-weight: 600;
+      color: #1f2937;
+      margin-bottom: 8px;
+    }
+
+sree1.c [unix] (22:57 28/07/2025)                                                                                                                                                                        148,1 Bot
+-- INSERT --
+
