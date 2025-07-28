@@ -170,4 +170,29 @@ void swap(int *x, int *y) {
     *x = *y;
     *y = temp;
  
+}
 
+int factorial(int n) {
+    if (n == 0) return 1;
+    return n * factorial(n - 1);
+}
+
+struct Student createStudent(char name[], int age, float marks) {
+    struct Student s;
+    strcpy(s.name, name);
+    s.age = age;
+    s.marks = marks;
+    return s;
+}
+
+void saveToFile(const char *filename, const char *data) {
+    FILE *f = fopen(filename, "w");
+    if (f == NULL) {
+        printf("\nError opening file.");
+        return;
+    }
+    fprintf(f, "%s", data);
+    fclose(f);
+    printf("\nData written to %s", filename);
+}
+return 0;
