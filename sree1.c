@@ -125,4 +125,14 @@
     
     .appointment-item {
       background: #f8fafc;
+ border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 15px;
+      transition: border-color 0.3s;
+    }
+    
+    .appointment-item:hover {
+      border-color: #3b82f6;
+    }
   
