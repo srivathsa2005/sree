@@ -77,4 +77,22 @@
       text-align: center;
       transition: transform 0.3s, box-shadow 0.3s;
     }
- 
+    .stat-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+    }
+    
+    .stat-number {
+      font-size: 48px;
+      font-weight: 300;
+      color: #3b82f6;
+      margin-bottom: 10px;
+      display: block;
+    }
+    
+    .stat-label {
+      font-size: 16px;
+      color: #6b7280;
+      font-weight: 500;
+    }
+     
