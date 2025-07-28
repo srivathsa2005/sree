@@ -95,4 +95,16 @@
       color: #6b7280;
       font-weight: 500;
     }
-     
+    .appointments-section {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+    }
+    
+    .section-header {
+      background: #f8fafc;
+      padding: 25px 30px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+  
