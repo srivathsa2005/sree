@@ -80,5 +80,36 @@ int main() {
 
     // Structures
     struct Student s1 = createStudent("Alice", 20, 85.5);
+  printf("\nStudent Info: Name=%s, Age=%d, Marks=%.2f", s1.name, s1.age, s1.marks);
+
+    // Dynamic Memory Allocation
+    int *ptr = (int *)malloc(5 * sizeof(int));
+    if (ptr == NULL) {
+        printf("\nMemory allocation failed.");
+        return 1;
+    }
+    printf("\nDynamic Array: ");
+    for (int k = 0; k < 5; k++) {
+        ptr[k] = k * 2;
+        printf("%d ", ptr[k]);
+    }
+    free(ptr);
+
+    // File Handling
+    saveToFile("output.txt", "This is a test file.\nHello C Programming!");
+
+    // Switch Case
+    int choice = 2;
+    switch (choice) {
+        case 1: printf("\nChoice is 1"); break;
+        case 2: printf("\nChoice is 2"); break;
+        default: printf("\nInvalid Choice"); break;
+    }
+
+    // Nested Loops (Pattern)
+    printf("\nPattern:\n");
+    for (int r = 1; r <= 5; r++) {
+        for (int c = 1; c <= r; c++) {
+            printf("*");
  
 
