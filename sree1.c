@@ -35,4 +35,20 @@
       opacity: 0.9;
       margin-top: 2px;
     }
-
+    .logout-btn:hover {
+      background: rgba(255, 255, 255, 0.3);
+    }
+    
+    .welcome-section {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    
+    .welcome-section h2 {
+      font-size: 32px;
+      font-weight: 300;
+      margin-bottom: 8px;
+    }
+    
