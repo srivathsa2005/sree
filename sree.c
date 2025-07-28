@@ -32,5 +32,30 @@ int main() {
     // If-Else
     if (sum > 20) {
         printf("Sum is greater than 20\n");
-    
+    } else if (sum == 15) {
+        printf("Sum is 15\n");
+    } else {
+        printf("Sum is something else\n");
+    }
+
+    // Loops (For, While, Do-While)
+    printf("\nFor Loop (1 to 5): ");
+    for (int i = 1; i <= 5; i++) {
+        printf("%d ", i);
+    }
+
+    printf("\nWhile Loop (5 to 1): ");
+    int i = 5;
+    while (i >= 1) {
+        printf("%d ", i);
+        i--;
+    }
+
+    printf("\nDo-While Loop (1 to 3): ");
+    int j = 1;
+    do {
+        printf("%d ", j);
+        j++;
+    } while (j <= 3);
+ 
 
