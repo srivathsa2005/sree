@@ -135,4 +135,14 @@
     .appointment-item:hover {
       border-color: #3b82f6;
     }
+ .appointment-item:last-child {
+      margin-bottom: 0;
+    }
+    
+    .appointment-patient {
+      font-size: 18px;
+      font-weight: 600;
+      color: #1f2937;
+      margin-bottom: 8px;
+    }
   
