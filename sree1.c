@@ -21,4 +21,18 @@
       color: white;
       padding: 20px 40px;
       display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .header h1 {
+      font-size: 28px;
+      font-weight: 600;
+    }
+    
+    .header .subtitle {
+      font-size: 14px;
+      opacity: 0.9;
+      margin-top: 2px;
+    }
 
