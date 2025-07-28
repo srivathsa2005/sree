@@ -107,4 +107,22 @@
       padding: 25px 30px;
       border-bottom: 1px solid #e5e7eb;
     }
+.section-header h3 {
+      font-size: 24px;
+      font-weight: 600;
+      color: #1f2937;
+      margin-bottom: 5px;
+    }
+    
+    .section-header p {
+      color: #6b7280;
+      font-size: 14px;
+    }
+    
+    .appointments-content {
+      padding: 30px;
+    }
+    
+    .appointment-item {
+      background: #f8fafc;
   
