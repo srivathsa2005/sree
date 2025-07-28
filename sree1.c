@@ -9,4 +9,16 @@
       box-sizing: border-box;
     }
     
+ 
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fc;
+      color: #333;
+    }
+    
+    .header {
+      background: linear-gradient(135deg, #4f46e5 0%, #3b82f6 100%);
+      color: white;
+      padding: 20px 40px;
+      display: flex;
 
