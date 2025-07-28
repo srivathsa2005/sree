@@ -143,5 +143,31 @@ int main() {
         }
         if (n == 5) {
             break;
+   }
+        printf("%d ", n);
+    }
+
+    // Nested Functions (Indirect via function calls)
+    printf("\nAddition using function: %d", add(7, 8));
+
+    printf("\nEnd of Program\n");
+    return 0;
+}
+
+// Function Definitions
+int add(int a, int b) {
+    return a + b;
+}
+
+void printArray(int arr[], int size) {
+    for (int i = 0; i < size; i++) {
+        printf("%d ", arr[i]);
+    }
+}
+
+void swap(int *x, int *y) {
+    int temp = *x;
+    *x = *y;
+    *y = temp;
  
 
