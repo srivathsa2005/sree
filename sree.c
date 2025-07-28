@@ -57,5 +57,28 @@ int main() {
         printf("%d ", j);
         j++;
     } while (j <= 3);
+    // Arrays
+    int arr[5] = {1, 2, 3, 4, 5};
+    printf("\nArray elements: ");
+    printArray(arr, 5);
+
+    // Strings
+    char str1[20] = "Hello";
+    char str2[20] = "World";
+    strcat(str1, str2);
+    printf("\nConcatenated String: %s", str1);
+    printf("\nString Length: %lu", strlen(str1));
+
+    // Pointers
+    int x = 100, y = 200;
+    printf("\nBefore Swap: x=%d, y=%d", x, y);
+    swap(&x, &y);
+    printf("\nAfter Swap: x=%d, y=%d", x, y);
+
+    // Functions
+    printf("\nFactorial of 5: %d", factorial(5));
+
+    // Structures
+    struct Student s1 = createStudent("Alice", 20, 85.5);
  
 
